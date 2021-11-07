@@ -1,3 +1,6 @@
+<p align='center'><img src='devcard.svg' alt='Dev Card of Francis Mistica' height='500px' /></p>
+&nbsp;
+&nbsp;
 <h1 align="center">Hi 👋, I'm Francis Mistica</h1>
 <h3 align="center">A passionate frontend developer from the Philippines</h3>
 
