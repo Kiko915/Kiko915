@@ -8,7 +8,7 @@
 
 - 🔭 I’m currently working on [Yow-Work](https://yowwork.netlify.app)
 
-- 🌱 I’m currently learning **Typescript,**
+- 🌱 I’m currently learning **Next.js,**
 
 - 👨‍💻 All of my projects are available at [https://francismistica.netlify.app](https://francismistica.netlify.app)
 
