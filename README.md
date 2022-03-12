@@ -2,9 +2,12 @@
 &nbsp;
 &nbsp;
 <h1 align="center">Hi 👋, I'm Francis Mistica</h1>
-<h3 align="center">A passionate frontend developer from the Philippines</h3>
+<h3 align="center">A passionate fullstack developer from the Philippines</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kiko915&label=Profile%20views&color=0e75b6&style=flat" alt="kiko915" /> </p>
+<h4>My Skills</h4>
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,nextjs,nodejs,react,sass,firebase,ts,vscode,py,mysql,mongodb,git,figma)](https://skillicons.dev)
 
 - 🔭 I’m currently working on [Yow-Work](https://yowwork.netlify.app)
 
