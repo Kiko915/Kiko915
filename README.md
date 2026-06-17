@@ -1,33 +1,138 @@
-<p align='center'><img src='devcard.svg' alt='Dev Card of Francis Mistica' height='500px' /></p>
-&nbsp;
-&nbsp;
-<h1 align="center">Hi 👋, I'm Francis Mistica</h1>
-<h3 align="center">A passionate fullstack developer from the Philippines</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kiko915&label=Profile%20views&color=0e75b6&style=flat" alt="kiko915" /> </p>
-<h4>My Skills</h4>
+<!-- Terminal-style typing animation as the hero -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=2500&pause=800&color=22C55E&background=0D1117&center=true&vCenter=true&multiline=true&width=620&height=130&lines=francisc%40dev+~+%24+whoami;%3E+Francis+Mistica+%E2%80%94+Fullstack+Developer;francisc%40dev+~+%24+cat+location.txt;%3E+Philippines+%F0%9F%87%B5%F0%9F%87%AD;francisc%40dev+~+%24+echo+%24STATUS;%3E+Open+to+collabs+%F0%9F%9F%A2" alt="Terminal Hero" />
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,nextjs,nodejs,react,sass,firebase,ts,vscode,py,mysql,mongodb,git,figma)](https://skillicons.dev)
+<br/>
 
-- 🔭 I’m currently working on [Yow-Work](https://yowwork.netlify.app)
-
-- 🌱 I’m currently learning **Next.js,**
-
-- 👨‍💻 All of my projects are available at [https://francismistica.netlify.app](https://francismistica.netlify.app)
-
-- 💬 Ask me about **react, javascript, typescript, scss**
-
-- 📫 How to reach me **developwithfrancisco@gmail.com**
-
-- ⚡ Fun fact **Because of the gravity**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/francis.mistica" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="francis.mistica" height="30" width="40" /></a>
+<!-- Social badges — flat style to stay minimal -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=kiko915&style=flat-square&color=22c55e&label=visitors" alt="Profile Views" />
+  &nbsp;
+  <a href="https://instagram.com/francis.mistica">
+    <img src="https://img.shields.io/badge/instagram-@francis.mistica-E4405F?style=flat-square&logo=instagram&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:developwithfrancisco@gmail.com">
+    <img src="https://img.shields.io/badge/email-developwithfrancisco@gmail.com-22c55e?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://francismistica.me">
+    <img src="https://img.shields.io/badge/portfolio-francismistica.me-16a34a?style=flat-square&logo=firefoxbrowser&logoColor=white" />
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://babeljs.io/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://bulma.io/" target="_blank"> <img src="https://raw.githubusercontent.com/gilbarbara/logos/804dc257b59e144eaca5bc6ffd16949752c6f789/logos/bulma.svg" alt="bulma" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.framer.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" alt="framer" width="40" height="40"/> </a> <a href="https://www.gatsbyjs.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg" alt="gatsby" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://materializecss.com/" target="_blank"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+</div>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=kiko915&show_icons=true&locale=en&layout=compact" alt="kiko915" /></p>
+```bash
+# ────────────────────────────────────────────────
+#  francisc@dev  ~  about.sh
+# ────────────────────────────────────────────────
 
+$ cat about.json
+{
+  "name"     : "Francis Mistica",
+  "role"     : "Fullstack Developer",
+  "location" : "Philippines 🇵🇭",
+  "focus"    : ["React", "Next.js", "TypeScript", "Node.js"],
+  "learning" : "Next.js · System Design",
+  "building" : "Yow-Work  →  https://yowwork.netlify.app",
+  "fun_fact" : "Because of the gravity."
+}
+```
+
+---
+
+```bash
+# ────────────────────────────────────────────────
+#  francisc@dev  ~  stack --list
+# ────────────────────────────────────────────────
+
+$ ls ./frontend/
+```
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=flat-square&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=flat-square&logo=css3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=ffffff)
+![Sass](https://img.shields.io/badge/Sass-0d1117?style=flat-square&logo=sass&logoColor=CC6699)
+![Tailwind](https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+
+</div>
+
+```bash
+$ ls ./backend/
+```
+
+<div align="center">
+
+![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=ffffff)
+![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=flat-square&logo=mysql&logoColor=4479A1)
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=FFCA28)
+
+</div>
+
+```bash
+$ ls ./tools/
+```
+
+<div align="center">
+
+![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=F05032)
+![Figma](https://img.shields.io/badge/Figma-0d1117?style=flat-square&logo=figma&logoColor=F24E1E)
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
+![Redux](https://img.shields.io/badge/Redux-0d1117?style=flat-square&logo=redux&logoColor=764ABC)
+![GraphQL](https://img.shields.io/badge/GraphQL-0d1117?style=flat-square&logo=graphql&logoColor=E10098)
+![Webpack](https://img.shields.io/badge/Webpack-0d1117?style=flat-square&logo=webpack&logoColor=8DD6F9)
+![Jest](https://img.shields.io/badge/Jest-0d1117?style=flat-square&logo=jest&logoColor=C21325)
+![Postman](https://img.shields.io/badge/Postman-0d1117?style=flat-square&logo=postman&logoColor=FF6C37)
+
+</div>
+
+---
+
+```bash
+# ────────────────────────────────────────────────
+#  francisc@dev  ~  github --stats kiko915
+# ────────────────────────────────────────────────
+```
+
+<div align="center">
+
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=kiko915&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22c55e&icon_color=16a34a&text_color=a3a3a3&rank_icon=github" />
+&nbsp;
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiko915&layout=compact&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=a3a3a3" />
+
+<br/><br/>
+
+<img width="80%" src="https://streak-stats.demolab.com?user=kiko915&hide_border=true&background=0D1117&stroke=22c55e&ring=22c55e&fire=4ade80&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=22c55e&sideLabels=d4d4d4&dates=a3a3a3" />
+
+<br/><br/>
+
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=kiko915&bg_color=0d1117&color=22c55e&line=16a34a&point=4ade80&area=true&area_color=16a34a&hide_border=true" />
+
+</div>
+
+---
+
+```bash
+# ────────────────────────────────────────────────
+#  francisc@dev  ~  ls ./projects/active/
+# ────────────────────────────────────────────────
+
+$ open yow-work/
+  → https://yowwork.netlify.app       [LIVE 🟢]
+
+$ open portfolio/
+  → https://francismistica.me         [LIVE 🟢]
+
+$ echo "Let's build something."
+  → developwithfrancisco@gmail.com
+```
