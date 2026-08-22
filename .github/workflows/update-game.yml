@@ -54,12 +54,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if [ -z "$(git status --porcelain -- game.gif stats.svg langs.svg)" ]; then
+          if [ -z "$(git status --porcelain -- game.gif stats.svg langs.svg streak.svg)" ]; then
             echo "Nothing changed - skipping commit."
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add game.gif stats.svg langs.svg
+          git add game.gif stats.svg langs.svg streak.svg
           git commit -m 'chore(profile): refresh generated art'
           git push

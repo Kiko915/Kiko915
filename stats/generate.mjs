@@ -1,9 +1,11 @@
-// Renders two Daily Bugle styled SVG panels from the GitHub GraphQL API:
-// stats.svg (headline figures) and langs.svg (language breakdown).
+// Renders three Daily Bugle styled SVG panels from the GitHub GraphQL API:
+// stats.svg (headline figures), langs.svg (language breakdown) and
+// streak.svg (contribution streaks).
 //
-// These replace the github-readme-stats cards, whose shared Vercel deployment
-// is frequently paused and returns 503. Everything here is committed into the
-// repo, so the README never depends on a third-party service being up.
+// These replace the github-readme-stats cards (shared Vercel deployment, often
+// paused with a 503) and the streak-stats card (demolab host, intermittently
+// times out behind camo). Everything here is committed into the repo, so the
+// README never depends on a third-party service being up.
 //
 //   node generate.mjs [login] [outDir]
 
@@ -34,7 +36,10 @@ const QUERY = `query($login: String!, $after: String) {
       totalIssueContributions
       totalPullRequestReviewContributions
       restrictedContributionsCount
-      contributionCalendar { totalContributions }
+      contributionCalendar {
+        totalContributions
+        weeks { contributionDays { date contributionCount } }
+      }
     }
     repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE, REPOSITORY]) {
       totalCount
@@ -101,7 +106,15 @@ async function fetchStats(login, token) {
     .map(([name, l]) => ({ name, share: (l.size / totalBytes) * 100, color: l.color }))
     .sort((a, b) => b.share - a.share);
 
+  const days = c.contributionCalendar.weeks
+    .flatMap((w) => w.contributionDays)
+    .filter((d) => d.date <= new Date().toISOString().slice(0, 10))
+    .sort((a, b) => a.date.localeCompare(b.date));
+
   return {
+    streaks: computeStreaks(days),
+    firstDay: days.length ? days[0].date : null,
+    lastDay: days.length ? days[days.length - 1].date : null,
     login: user.login,
     name: user.name || user.login,
     followers: user.followers.totalCount,
@@ -115,6 +128,43 @@ async function fetchStats(login, token) {
     stars,
     languages,
   };
+}
+
+
+/* ---------------------------------------------------------------- streaks */
+
+// A streak is a run of consecutive days with at least one contribution. Today
+// counts as neutral rather than breaking the run, which is how the streak cards
+// people are used to behave - you have not missed the day until it is over.
+function computeStreaks(days) {
+  let longest = { length: 0, start: null, end: null };
+  let run = 0;
+  let runStart = null;
+
+  for (const day of days) {
+    if (day.contributionCount > 0) {
+      if (run === 0) runStart = day.date;
+      run++;
+      if (run > longest.length) {
+        longest = { length: run, start: runStart, end: day.date };
+      }
+    } else {
+      run = 0;
+    }
+  }
+
+  let i = days.length - 1;
+  if (i >= 0 && days[i].contributionCount === 0) i--; // today is still open
+  let current = 0;
+  let end = null;
+  let start = null;
+  for (; i >= 0 && days[i].contributionCount > 0; i--) {
+    if (end === null) end = days[i].date;
+    start = days[i].date;
+    current++;
+  }
+
+  return { current: { length: current, start, end }, longest };
 }
 
 /* ------------------------------------------------------------------- util */
@@ -246,6 +296,74 @@ ${rule(pad, W - pad, 216, 1, 0.45)}
 `;
 }
 
+
+/* ----------------------------------------------------------- streak panel */
+
+function shortDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso + 'T00:00:00Z');
+  const m = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
+    'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'][d.getUTCMonth()];
+  return `${m} ${d.getUTCDate()} ${d.getUTCFullYear()}`;
+}
+
+function renderStreak(s) {
+  const W = 880;
+  const H = 220;
+  const pad = 18;
+  const { current, longest } = s.streaks;
+
+  const columns = [
+    {
+      value: num(s.contributions),
+      label: 'TOTAL CONTRIBUTIONS',
+      range: `${shortDate(s.firstDay)}  —  ${shortDate(s.lastDay)}`,
+    },
+    {
+      value: num(current.length),
+      label: 'DAY CURRENT RUN',
+      range: current.length
+        ? `${shortDate(current.start)}  —  ${shortDate(current.end)}`
+        : 'PRESSES IDLE',
+      feature: true,
+    },
+    {
+      value: num(longest.length),
+      label: 'DAY LONGEST RUN',
+      range: longest.length
+        ? `${shortDate(longest.start)}  —  ${shortDate(longest.end)}`
+        : '—',
+    },
+  ];
+
+  const body = columns.map((col, i) => {
+    const cx = (W / 3) * i + W / 6;
+    const parts = [];
+    if (col.feature) {
+      parts.push(`  <circle cx="${cx}" cy="154" r="27" fill="none" stroke="${BUGLE_RED}" stroke-opacity="0.55" stroke-width="1.5"/>`);
+      parts.push(`  <circle cx="${cx}" cy="154" r="31" fill="none" stroke="${BUGLE_RED}" stroke-opacity="0.25"/>`);
+    }
+    parts.push(`  <text x="${cx}" y="163" text-anchor="middle" font-family="${SERIF}" font-size="30" font-weight="bold" fill="${col.feature ? BUGLE_RED : INK}">${esc(col.value)}</text>`);
+    parts.push(`  <text x="${cx}" y="192" text-anchor="middle" font-family="${SANS}" font-size="9" letter-spacing="1.1" fill="${INK}">${esc(col.label)}</text>`);
+    parts.push(`  <text x="${cx}" y="204" text-anchor="middle" font-family="${SANS}" font-size="7.5" letter-spacing="0.7" fill="${MUTED}">${esc(col.range)}</text>`);
+    return parts.join('\n');
+  }).join('\n');
+
+  const dividers = [1, 2].map((i) => (
+    `  <line x1="${(W / 3) * i}" y1="124" x2="${(W / 3) * i}" y2="208" stroke="${INK}" stroke-opacity="0.25"/>`
+  )).join('\n');
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily Bugle contribution streak for ${esc(s.login)}">
+${paper(W, H)}
+${masthead(W, 'THE PRESS RUN', 'CIRCULATION DESK  ·  CONSECUTIVE DAYS ON THE BEAT')}
+  <text x="${W / 2}" y="110" text-anchor="middle" font-family="${SERIF}" font-size="12" font-weight="bold" fill="${BUGLE_RED}">${esc(current.length ? 'THE PRESSES HAVE NOT STOPPED' : 'PRESSES IDLE — RUN BROKEN')}</text>
+${rule(pad, W - pad, 118, 1, 0.45)}
+${dividers}
+${body}
+</svg>
+`;
+}
+
 /* -------------------------------------------------------------------- main */
 
 async function main() {
@@ -259,10 +377,12 @@ async function main() {
 
   writeFileSync(join(outDir, 'stats.svg'), renderStats(stats));
   writeFileSync(join(outDir, 'langs.svg'), renderLangs(stats));
+  writeFileSync(join(outDir, 'streak.svg'), renderStreak(stats));
 
   console.log(`${login}: ${num(stats.contributions)} contributions, ${num(stats.stars)} stars, ` +
     `${stats.repoCount} repos, top language ${stats.languages[0]?.name ?? 'n/a'}`);
-  console.log(`wrote stats.svg and langs.svg to ${outDir}`);
+  console.log(`streak: ${stats.streaks.current.length} current, ${stats.streaks.longest.length} longest`);
+  console.log(`wrote stats.svg, langs.svg and streak.svg to ${outDir}`);
 }
 
 main().catch((err) => {

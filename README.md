@@ -129,7 +129,7 @@ $ ls ./tools/
 
 <br/><br/>
 
-<img width="80%" src="https://streak-stats.demolab.com?user=kiko915&hide_border=true&background=0D1117&stroke=22c55e&ring=22c55e&fire=4ade80&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=22c55e&sideLabels=d4d4d4&dates=a3a3a3" />
+<img width="88%" src="streak.svg" alt="The Press Run — contribution streaks" />
 
 <br/><br/>
 
