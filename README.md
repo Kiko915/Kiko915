@@ -133,7 +133,7 @@ $ ls ./tools/
 
 <br/><br/>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=kiko915&bg_color=0d1117&color=22c55e&line=16a34a&point=4ade80&area=true&area_color=16a34a&hide_border=true" />
+<img width="88%" src="activity.svg" alt="The Commit Exchange — daily contributions over 52 weeks" />
 
 </div>
 

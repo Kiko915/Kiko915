@@ -6,7 +6,8 @@ staying up. Both are re-rendered daily by
 [`.github/workflows/update-game.yml`](../.github/workflows/update-game.yml).
 
 - `game/` - the animated GIF (this directory)
-- `stats/` - the Daily Bugle stat panels, `stats.svg` and `langs.svg`
+- `stats/` - the Daily Bugle panels: `stats.svg`, `langs.svg`, `streak.svg`
+  and `activity.svg`
 
 ## Scenes
 
