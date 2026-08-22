@@ -9,13 +9,13 @@
   <line x1="18" y1="68" x2="462" y2="68" stroke="#1a1a1a" stroke-opacity="0.75" stroke-width="2.5"/>
   <text x="240" y="82" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="8.5" letter-spacing="1.6" fill="#5b5344">VOL. MMXXVI  ·  NEW YORK CITY  ·  AUG 22  ·  LATE EDITION</text>
   <line x1="18" y1="90" x2="462" y2="90" stroke="#1a1a1a" stroke-opacity="0.45" stroke-width="1"/>
-  <text x="240" y="112" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="17" font-weight="bold" fill="#b3121a">&quot;MENACE&quot; LOGS 1,407 CONTRIBUTIONS</text>
+  <text x="240" y="112" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="17" font-weight="bold" fill="#b3121a">&quot;MENACE&quot; LOGS 1,408 CONTRIBUTIONS</text>
   <text x="240" y="126" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="8" letter-spacing="1.1" fill="#5b5344">EXCLUSIVE · BY OUR OWN CORRESPONDENT</text>
   <line x1="18" y1="133" x2="462" y2="133" stroke="#1a1a1a" stroke-opacity="0.45" stroke-width="1"/>
   <text x="26" y="148" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">COMMITS</text>
-  <text x="226" y="148" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">1,289</text>
+  <text x="226" y="148" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">1,290</text>
   <text x="246" y="148" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">STARS</text>
-  <text x="454" y="148" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">9</text>
+  <text x="454" y="148" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">8</text>
   <text x="26" y="166" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">PULL REQUESTS</text>
   <text x="226" y="166" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">81</text>
   <text x="246" y="166" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">REVIEWS</text>
@@ -23,9 +23,9 @@
   <text x="26" y="184" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">ISSUES</text>
   <text x="226" y="184" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">2</text>
   <text x="246" y="184" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">REPOSITORIES</text>
-  <text x="454" y="184" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">81</text>
+  <text x="454" y="184" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">54</text>
   <text x="26" y="202" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">CONTRIBUTED TO</text>
-  <text x="226" y="202" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">6</text>
+  <text x="226" y="202" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">4</text>
   <text x="246" y="202" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#5b5344">FOLLOWERS</text>
   <text x="454" y="202" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="13" font-weight="bold" fill="#1a1a1a">9</text>
   <line x1="236" y1="138" x2="236" y2="208" stroke="#1a1a1a" stroke-opacity="0.25"/>
