@@ -1,0 +1,13 @@
+{
+  "name": "terminal-runner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Renders a GitHub contribution calendar as a platformer GIF.",
+  "scripts": {
+    "build": "node generate.mjs"
+  },
+  "dependencies": {
+    "gifenc": "^1.0.3"
+  }
+}

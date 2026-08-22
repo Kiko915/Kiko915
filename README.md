@@ -26,6 +26,23 @@
 
 ```bash
 # ────────────────────────────────────────────────
+#  francisc@dev  ~  ./run.sh
+# ────────────────────────────────────────────────
+
+$ ./run.sh --level contributions
+  → terrain height  = days I shipped that week
+  → brightest block = my best day of the week
+  → coins           = commits, collected on landing
+```
+
+<p align="center">
+  <img src="game.gif" alt="Terminal Runner — my contribution graph as a platformer" width="100%" />
+</p>
+
+---
+
+```bash
+# ────────────────────────────────────────────────
 #  francisc@dev  ~  about.sh
 # ────────────────────────────────────────────────
 
