@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="235" viewBox="0 0 400 235" role="img" aria-label="Daily Bugle language breakdown for Kiko915">
+  <rect width="400" height="235" rx="6" fill="#ece5d3"/>
+  <rect x="0.5" y="0.5" width="399" height="234" rx="6" fill="none" stroke="#1a1a1a" stroke-opacity="0.35"/>
+  <rect x="8" y="8" width="384" height="219" fill="none" stroke="#1a1a1a" stroke-opacity="0.18"/>
+  <line x1="18" y1="26" x2="382" y2="26" stroke="#1a1a1a" stroke-opacity="0.75" stroke-width="2.5"/>
+  <line x1="18" y1="30" x2="382" y2="30" stroke="#1a1a1a" stroke-opacity="0.75" stroke-width="1"/>
+  <text x="200" y="54" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="26" font-weight="bold" letter-spacing="1.5" fill="#1a1a1a">THE PRESS ROOM</text>
+  <line x1="18" y1="64" x2="382" y2="64" stroke="#1a1a1a" stroke-opacity="0.75" stroke-width="1"/>
+  <line x1="18" y1="68" x2="382" y2="68" stroke="#1a1a1a" stroke-opacity="0.75" stroke-width="2.5"/>
+  <text x="200" y="82" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="8.5" letter-spacing="1.6" fill="#5b5344">COMPOSING DESK  ·  TYPE SET THIS YEAR</text>
+  <line x1="18" y1="90" x2="382" y2="90" stroke="#1a1a1a" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="200" y="108" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="12" font-weight="bold" fill="#b3121a">MOST-SET TYPE ACROSS 81 REPOSITORIES</text>
+  <line x1="18" y1="116" x2="382" y2="116" stroke="#1a1a1a" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="26" y="128" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#1a1a1a">PYTHON</text>
+  <rect x="128" y="120" width="200" height="9" fill="#1a1a1a" fill-opacity="0.08"/>
+  <rect x="128" y="120" width="159.5" height="9" fill="#3572A5"/>
+  <rect x="128" y="120" width="159.5" height="9" fill="none" stroke="#1a1a1a" stroke-opacity="0.45"/>
+  <text x="374" y="128" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="11" font-weight="bold" fill="#1a1a1a">79.8%</text>
+  <text x="26" y="144" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#1a1a1a">JAVASCRIPT</text>
+  <rect x="128" y="136" width="200" height="9" fill="#1a1a1a" fill-opacity="0.08"/>
+  <rect x="128" y="136" width="14.9" height="9" fill="#f1e05a"/>
+  <rect x="128" y="136" width="14.9" height="9" fill="none" stroke="#1a1a1a" stroke-opacity="0.45"/>
+  <text x="374" y="144" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="11" font-weight="bold" fill="#1a1a1a">7.4%</text>
+  <text x="26" y="160" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#1a1a1a">TYPESCRIPT</text>
+  <rect x="128" y="152" width="200" height="9" fill="#1a1a1a" fill-opacity="0.08"/>
+  <rect x="128" y="152" width="7.0" height="9" fill="#3178c6"/>
+  <rect x="128" y="152" width="7.0" height="9" fill="none" stroke="#1a1a1a" stroke-opacity="0.45"/>
+  <text x="374" y="160" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="11" font-weight="bold" fill="#1a1a1a">3.5%</text>
+  <text x="26" y="176" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#1a1a1a">VUE</text>
+  <rect x="128" y="168" width="200" height="9" fill="#1a1a1a" fill-opacity="0.08"/>
+  <rect x="128" y="168" width="4.3" height="9" fill="#41b883"/>
+  <rect x="128" y="168" width="4.3" height="9" fill="none" stroke="#1a1a1a" stroke-opacity="0.45"/>
+  <text x="374" y="176" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="11" font-weight="bold" fill="#1a1a1a">2.1%</text>
+  <text x="26" y="192" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#1a1a1a">DART</text>
+  <rect x="128" y="184" width="200" height="9" fill="#1a1a1a" fill-opacity="0.08"/>
+  <rect x="128" y="184" width="3.0" height="9" fill="#00B4AB"/>
+  <rect x="128" y="184" width="3.0" height="9" fill="none" stroke="#1a1a1a" stroke-opacity="0.45"/>
+  <text x="374" y="192" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="11" font-weight="bold" fill="#1a1a1a">1.4%</text>
+  <text x="26" y="208" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.9" fill="#1a1a1a">CSS</text>
+  <rect x="128" y="200" width="200" height="9" fill="#1a1a1a" fill-opacity="0.08"/>
+  <rect x="128" y="200" width="3.0" height="9" fill="#663399"/>
+  <rect x="128" y="200" width="3.0" height="9" fill="none" stroke="#1a1a1a" stroke-opacity="0.45"/>
+  <text x="374" y="208" text-anchor="end" font-family="Georgia,'Times New Roman',Times,serif" font-size="11" font-weight="bold" fill="#1a1a1a">0.9%</text>
+  <line x1="18" y1="216" x2="382" y2="216" stroke="#1a1a1a" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="26" y="223" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="8" letter-spacing="1" fill="#5b5344">SET IN THE COMPOSING ROOM</text>
+  <text x="374" y="223" text-anchor="end" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="8" letter-spacing="1" fill="#5b5344">@KIKO915</text>
+</svg>

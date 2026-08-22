@@ -1,4 +1,4 @@
-name: Terminal Runner
+name: Profile Art
 
 on:
   schedule:
@@ -8,13 +8,14 @@ on:
     branches: [main]
     paths:
       - 'game/**'
+      - 'stats/**'
       - '.github/workflows/update-game.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: terminal-runner
+  group: profile-art
   cancel-in-progress: true
 
 jobs:
@@ -38,17 +39,27 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_LOGIN: ${{ github.repository_owner }}
+          SCENE: swinger
           OUT_PATH: ../game.gif
         run: node generate.mjs
 
+      - name: Render stats panels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+          # Repos whose vendored bytes would otherwise dominate the language
+          # breakdown. Comma separated, matched case-insensitively.
+          EXCLUDE_REPOS: ''
+        run: node stats/generate.mjs
+
       - name: Commit if changed
         run: |
-          if [ -z "$(git status --porcelain -- game.gif)" ]; then
-            echo "Contribution graph unchanged - nothing to commit."
+          if [ -z "$(git status --porcelain -- game.gif stats.svg langs.svg)" ]; then
+            echo "Nothing changed - skipping commit."
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add game.gif
-          git commit -m 'chore(game): refresh terminal runner'
+          git add game.gif stats.svg langs.svg
+          git commit -m 'chore(profile): refresh generated art'
           git push

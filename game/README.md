@@ -1,21 +1,37 @@
-# Terminal Runner
+# Contribution art
 
-Renders the last 365 days of a GitHub contribution calendar as a side-scrolling
-platformer GIF, committed back to the repo root as `game.gif` by
+Two generators that turn this profile's GitHub data into artwork committed
+straight into the repo, so the README never depends on a third-party service
+staying up. Both are re-rendered daily by
 [`.github/workflows/update-game.yml`](../.github/workflows/update-game.yml).
 
-## How the graph becomes a level
+- `game/` - the animated GIF (this directory)
+- `stats/` - the Daily Bugle stat panels, `stats.svg` and `langs.svg`
 
-| Contribution data          | Game element                                    |
-| -------------------------- | ----------------------------------------------- |
-| One week (calendar column) | One column of terrain                           |
-| Days with commits that week| Terrain height, in blocks                       |
-| A day's contribution level | Block colour, dimmest at the bottom             |
-| That week's commit total   | The coin floating above the column              |
-| Quiet weeks                | Gaps the runner hops across at ground level     |
+## Scenes
 
-The runner advances one week per hop and picks up each coin as it lands, so the
-`commits` counter in the HUD climbs to the year's total by the final frame.
+`SCENE=swinger` (default) renders **Web-Swinger**: the calendar as a night
+skyline with Spider-Man swinging across it.
+
+`SCENE=runner` renders **Terminal Runner**, the original platformer, kept so it
+can be switched back on at any time.
+
+Both read the same world model:
+
+| Contribution data           | Scene element                                  |
+| --------------------------- | ---------------------------------------------- |
+| One week (calendar column)  | One tower / terrain column                     |
+| Days with commits that week | Its height, in blocks                          |
+| A day's contribution level  | Block colour, dimmest at the bottom            |
+| That week's commit total    | Added to the HUD counter as he passes          |
+
+In **Web-Swinger** the swing arc is hung off a smoothed envelope of the local
+rooftops, so a dense run of weeks pushes the arc high and a quiet stretch lets
+it dip low. The anchor for each swing sits above the midpoint of that swing's
+span, which is what makes the web sweep forward, go vertical, then trail behind.
+
+In **Terminal Runner** the runner advances one week per hop and picks up a coin
+on each landing.
 
 ## Running it locally
 
@@ -23,22 +39,31 @@ The runner advances one week per hop and picks up each coin as it lands, so the
 cd game
 npm install
 GITHUB_TOKEN=$(gh auth token) node generate.mjs Kiko915 ../game.gif
+
+# the other scene
+SCENE=runner GITHUB_TOKEN=$(gh auth token) node generate.mjs Kiko915 ../runner.gif
+
+# stat panels (from the repo root)
+GITHUB_TOKEN=$(gh auth token) node stats/generate.mjs Kiko915 .
 ```
 
-Without a token it falls back to scraping the public calendar fragment at
+Without a token the GIF falls back to scraping the public calendar fragment at
 `github.com/users/<login>/contributions`, which carries levels but not always
-exact per-day counts.
+exact per-day counts. The stat panels require a token.
 
-Environment variables: `GH_LOGIN`, `OUT_PATH`, `GITHUB_TOKEN`. Set
-`DEBUG_FRAME=<n>` to write just that single frame, which is handy when tuning
-the layout.
+Environment variables: `SCENE`, `GH_LOGIN`, `OUT_PATH`, `GITHUB_TOKEN`, and
+`EXCLUDE_REPOS` (stats only). Set `DEBUG_FRAME=<n>` to write just that single
+frame, which is how to tune layout without waiting on a full encode.
 
 ## Files
 
-- `generate.mjs` - layout, animation and GIF encoding
+- `generate.mjs` - CLI entry point, picks a scene and writes the GIF
+- `scene-swinger.mjs` / `scene-runner.mjs` - layout and animation per scene
+- `sprites-spidey.mjs` / `sprites-runner.mjs` - pixel art
 - `contributions.mjs` - calendar fetch (GraphQL, with a scrape fallback)
-- `sprites.mjs` - runner, coin and pickup-burst pixel art
+- `draw.mjs` - rect / sprite / line / bitmap text primitives
+- `encode.mjs` - GIF encoding
 - `font.mjs` - 5x7 bitmap font for the HUD and month ruler
 
-Frames are encoded as transparent deltas against the static calendar backdrop,
-which is what keeps a 204-frame 873x207 animation under 200 KB.
+Frames are encoded as transparent deltas against the static backdrop, which is
+what keeps a 226-frame 873x259 animation under 300 KB.

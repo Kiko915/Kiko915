@@ -26,17 +26,17 @@
 
 ```bash
 # ────────────────────────────────────────────────
-#  francisc@dev  ~  ./run.sh
+#  francisc@dev  ~  ./swing.sh
 # ────────────────────────────────────────────────
 
-$ ./run.sh --level contributions
-  → terrain height  = days I shipped that week
+$ ./swing.sh --city contributions
+  → every week is a tower, height = days I shipped
   → brightest block = my best day of the week
-  → coins           = commits, collected on landing
+  → the swing arc rides my own skyline
 ```
 
 <p align="center">
-  <img src="game.gif" alt="Terminal Runner — my contribution graph as a platformer" width="100%" />
+  <img src="game.gif" alt="Web-Swinger — my contribution graph as a night skyline" width="100%" />
 </p>
 
 ---
@@ -123,9 +123,9 @@ $ ls ./tools/
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=kiko915&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22c55e&icon_color=16a34a&text_color=a3a3a3&rank_icon=github" />
+<img height="205" src="stats.svg" alt="The Daily Bugle — GitHub stats" />
 &nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kiko915&layout=compact&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=a3a3a3" />
+<img height="205" src="langs.svg" alt="The Press Room — language breakdown" />
 
 <br/><br/>
 
