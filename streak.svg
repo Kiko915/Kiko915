@@ -9,18 +9,18 @@
   <line x1="18" y1="68" x2="862" y2="68" stroke="#1a1a1a" stroke-opacity="0.75" stroke-width="2.5"/>
   <text x="440" y="82" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="8.5" letter-spacing="1.6" fill="#5b5344">CIRCULATION DESK  ·  CONSECUTIVE DAYS ON THE BEAT</text>
   <line x1="18" y1="90" x2="862" y2="90" stroke="#1a1a1a" stroke-opacity="0.45" stroke-width="1"/>
-  <text x="440" y="110" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="12" font-weight="bold" fill="#b3121a">THE PRESSES HAVE NOT STOPPED</text>
+  <text x="440" y="110" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="12" font-weight="bold" fill="#b3121a">PRESSES IDLE — RUN BROKEN</text>
   <line x1="18" y1="118" x2="862" y2="118" stroke="#1a1a1a" stroke-opacity="0.45" stroke-width="1"/>
   <line x1="293.3333333333333" y1="124" x2="293.3333333333333" y2="208" stroke="#1a1a1a" stroke-opacity="0.25"/>
   <line x1="586.6666666666666" y1="124" x2="586.6666666666666" y2="208" stroke="#1a1a1a" stroke-opacity="0.25"/>
   <text x="146.66666666666666" y="163" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="30" font-weight="bold" fill="#1a1a1a">1,418</text>
   <text x="146.66666666666666" y="192" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="1.1" fill="#1a1a1a">TOTAL CONTRIBUTIONS</text>
-  <text x="146.66666666666666" y="204" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="7.5" letter-spacing="0.7" fill="#5b5344">AUG 24 2025  —  AUG 29 2026</text>
+  <text x="146.66666666666666" y="204" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="7.5" letter-spacing="0.7" fill="#5b5344">AUG 31 2025  —  AUG 30 2026</text>
   <circle cx="440" cy="154" r="27" fill="none" stroke="#b3121a" stroke-opacity="0.55" stroke-width="1.5"/>
   <circle cx="440" cy="154" r="31" fill="none" stroke="#b3121a" stroke-opacity="0.25"/>
-  <text x="440" y="163" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="30" font-weight="bold" fill="#b3121a">1</text>
+  <text x="440" y="163" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="30" font-weight="bold" fill="#b3121a">0</text>
   <text x="440" y="192" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="1.1" fill="#1a1a1a">DAY CURRENT RUN</text>
-  <text x="440" y="204" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="7.5" letter-spacing="0.7" fill="#5b5344">AUG 28 2026  —  AUG 28 2026</text>
+  <text x="440" y="204" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="7.5" letter-spacing="0.7" fill="#5b5344">PRESSES IDLE</text>
   <text x="733.3333333333333" y="163" text-anchor="middle" font-family="Georgia,'Times New Roman',Times,serif" font-size="30" font-weight="bold" fill="#1a1a1a">13</text>
   <text x="733.3333333333333" y="192" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="9" letter-spacing="1.1" fill="#1a1a1a">DAY LONGEST RUN</text>
   <text x="733.3333333333333" y="204" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="7.5" letter-spacing="0.7" fill="#5b5344">FEB 1 2026  —  FEB 13 2026</text>
