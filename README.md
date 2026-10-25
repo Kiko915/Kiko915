@@ -153,3 +153,5 @@ $ open portfolio/
 $ echo "Let's build something."
   → developwithfrancisco@gmail.com
 ```
+
+<!-- last manual touch: 2026-10-25 -->
