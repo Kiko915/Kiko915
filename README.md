@@ -7,7 +7,7 @@
 
 <!-- Social badges — flat style to stay minimal -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=kiko915&style=flat-square&color=22c55e&label=visitors" alt="Profile Views" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FKiko915&label=visitors&countColor=%2322c55e&style=flat-square" alt="Profile Views" />
   &nbsp;
   <a href="https://instagram.com/francis.mistica">
     <img src="https://img.shields.io/badge/instagram-@francis.mistica-E4405F?style=flat-square&logo=instagram&logoColor=white" />
